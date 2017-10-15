@@ -1,0 +1,26 @@
+button,
+input,
+textarea {
+  outline:none !important;
+}
+
+.btn_default{
+  display:inline-block;
+  padding:10px 30px;
+  text-decoration: none;
+  color:#fff !important;
+  font-family: $Oswald;
+  font-weight: bold;
+  border:1px solid #6f8ca8;
+  transition: 0.5s;
+  font-size: 16px;
+  background:#6f8ca8;
+  text-transform: uppercase;
+  text-decoration:none;
+  &:hover{
+    transition: 0.5s;
+    background:none;
+    color:#28323C !important;
+    text-decoration:none;
+  }
+}
